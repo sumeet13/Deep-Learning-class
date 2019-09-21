@@ -1,0 +1,8 @@
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/default
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/default_regularizer --regularizer
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/default_learningRate --use_learning_rate_2
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/default_learningRateRegularizer --use_learning_rate_2 --regularizer
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/modelAlt --use_model_2
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/modelAlt_regularizer --use_model_2 --regularizer
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/modelAlt_learningRate --use_model_2 --use_learning_rate_2
+sbatch ./run_py_496dl.sh homework1_code/main.py --earlystop 10 --epochs 500 --model_dir ./homework1_logs/modelAlt_learningRateRegularizer --use_model_2 --use_learning_rate_2 --regularizer
